@@ -1,40 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">\\
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_vocabulary_layout"
-            android:icon="@drawable/abc"
-            android:title="Từ vựng" />
+            android:id="@+id/nav_vocabulary"
+            android:title="Vocabulary" />
         <item
-            android:id="@+id/nav_grammar_layout"
-            android:icon="@drawable/grammar"
-            android:title="Ngữ pháp" />
+            android:id="@+id/nav_listenning"
+            android:title="Listenning" />
         <item
-            android:id="@+id/nav_tip_layout"
-            android:icon="@drawable/tip"
-            android:title="Mẹo" />
+            android:id="@+id/nav_read"
+            android:title="Reading" />
         <item
-            android:id="@+id/nav_listen_layout"
-            android:icon="@drawable/listen"
-            android:title="Nghe" />
+            android:id="@+id/nav_video"
+            android:title="Youtube Video" />
+
         <item
-            android:id="@+id/nav_test_layout"
-            android:icon="@drawable/test"
-            android:title="Kiểm tra" />
+            android:id="@+id/nav_notes"
+            android:title="Notes" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:title="Exit" />
+
+        <item
+            android:id="@+id/nav_dictionary"
+            android:title="Dictionary" />
+
+
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_about_layout"
-                android:icon="@drawable/info"
-                android:title="About" />
-        </menu>
-    </item>
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
 
 </menu>

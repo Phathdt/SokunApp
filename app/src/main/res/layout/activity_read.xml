@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   
+    tools:context=".TestActivity" >
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="50dp"
+           android:background="#66B3FF"
+           android:gravity="center"
+           android:layout_gravity="center" >
+
+           <ImageView
+               android:id="@+id/imageView2"
+               android:layout_width="70dp"
+               android:layout_height="50dp"
+               android:padding="5dp"
+               android:src="@drawable/start" />
+
+           <TextView
+               android:id="@+id/textView9"
+               android:layout_width="180dp"
+               android:layout_height="match_parent"
+               android:gravity="center_horizontal"
+               android:padding="5dp"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:textColor="#FFFFFF"
+               android:textSize="30sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="42.50"
+               android:gravity="center"
+               android:textAppearance="?android:attr/textAppearanceLarge" />
+       </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:lines="3"
+        android:gravity="center"
+        android:textColor="#66B3FF"
+        android:layout_margin="20dp"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp" 
+        >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textColor="#66B3FF"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:textColor="#66B3FF"
+            
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#66B3FF"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:textColor="#66B3FF"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="#3CA0D0"
+        android:text="Finish" />
+
+</LinearLayout>
